@@ -676,5 +676,19 @@
         },
         "license": "LICENSE",
         "repo": "https://github.com/EmulatorJS/dosbox-pure"
+    },
+    {
+        "name": "simu-emu",
+        "extensions": [ "NSP", "XCI" ],
+        "makeoptions": {
+            "buildpath": "./",
+            "makescript": "Makefile",
+            "arguments": []
+        },
+        "options": {
+        },
+        "license": "LICENSE.md",
+        "repo": "https://github.com/ovsky/sumi-emu",
+        "branch": "experimental"
     }
 ]
